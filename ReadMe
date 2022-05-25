@@ -1,1 +1,18 @@
-ReadMe file
+# MetaMLP
+
+This is a pytorch and pytorch-geometric based implementation of **Say No to Noise: Teaching Graph Neural Network Tricks to MLPs by Reliable Knowledge Distillation **. 
+
+## Installation
+
+The required packages can be installed by running `pip install -r requirements.txt`.
+
+## MetaMLP
+
+## Datasets
+The datasets used in our paper can be automatically downlowad. 
+
+## Quick Start
+Train on the Planetoid datasets (Cora, CiteSeer, and Pubmed):
+```
+python metamlp_main.py --dataset "PubMed" --model SAGE 
+```
