@@ -491,8 +491,6 @@ if __name__ == "__main__":
 
     train_index = torch.where(data.train_mask == True)[0]
     val_index = torch.where(data.val_mask == True)[0]
-    # data.u_mask[val_index] = False
-    # data.u_mask[train_index] = True
 
     save_path_teacher = 'weight/glnn-tea-sanitymlpmixup_{}_{}_{}_'.format(args.model, args.seed, args.add_soft) + args.dataset + "_{}_{}".format(args.num_layer, args.hidden)\
                 + "_{}_{}_{}_{}_{}_mlp-{}_{}_{}_{}_{}_{}_{}_{}".format(args.lr, args.weight_decay, args.dropout, args.use_norm, args.golden, args.lr_mlp, args.dropout_mlp, args.num_layer_mlp, args.hidden_mlp, args.weight_decay_mlp, args.pos_sample, args.neg_sample, args.generate) + "_model.pth"
