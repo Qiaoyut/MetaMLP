@@ -1,6 +1,6 @@
 # RKD-MLP
 
-This is a pytorch and pytorch-geometric based implementation of __Double Wins: Boosting Accuracy and Efficiency of Graph Neural Networks by Reliable Knowledge Distillation.__ 
+This is a pytorch and pytorch-geometric based implementation of **Double Wins: Boosting Accuracy and Efficiency of Graph Neural Networks by Reliable Knowledge Distillation.** 
 
 ## Installation
 
